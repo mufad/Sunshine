@@ -228,7 +228,7 @@ public class ForecastFragment extends Fragment {
                 final String UNITS_PARAM="units";
                 final String DAYS_PARAM="cnt";
                 final String APPID_PARAM="APPID";
-                final String appid="4141b12d12c5e94b026e8268121ba4bf";
+                final String appid="XXXXXXXXXXXXXXXX";//Your openweather API key here
 
                 Uri builtUri=Uri.parse(FORECAST_BASE_URL).buildUpon()
                         .appendQueryParameter(QUERY_PARAM, params[0])
