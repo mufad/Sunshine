@@ -14,3 +14,5 @@ Demo app to parse data from Openweather Json API
  
  *ListView
  
+ 
+ In ForecastFragment.java change the API key with your openweather API key.
